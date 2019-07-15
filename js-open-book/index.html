@@ -61,9 +61,10 @@
       transform: rotateY(0deg);
     }
     .front-cover .back{
-      background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553581220215&di=91943b3c087faf6b86e0670ce7c0eb3d&imgtype=0&src=http%3A%2F%2Fimg.25pp.com%2Fuploadfile%2Fsoft%2Fimages%2F2015%2F0301%2F20150301021016689.jpg);
+      background-image: url(http://img.acgjc.com/wp-content/uploads/2019/01/851148b4fd8fd7ae74bd9100c5c0c898-5-1024x1024.jpg);
       background-repeat: no-repeat;
       background-position: 50% 50%;
+      background-size:100%;
       transform: translateZ(3px);
     }
     .back-cover .back{
@@ -82,11 +83,11 @@
       position: absolute;
       left: 60px;
       top: 60px;
-      transform-origin: 0 100%;
+      transform-origin:left bottom;/*变换元素的原点*//*left bottom=bottom left*/
     }
     .dino{
-      background: url(http://cdn.duitang.com/uploads/item/201406/17/20140617131104_hcJft.jpeg) no-repeat;
-      background-size: cover;
+      background: url(https://tamaonsen.com/contents/TOS047_JAK.jpg) no-repeat;
+      background-size: cover;/*background-size:100%与background-size:cover;效果相同*/
     }
     .shadow{
       background-color: rgba(0,0,0,0.5);
